@@ -14,6 +14,7 @@ install(
     "${PROJECT_BINARY_DIR}/export/"
     DESTINATION "${CMAKE_INSTALL_INCLUDEDIR}"
     COMPONENT multi-target_Development
+    PATTERN private EXCLUDE
     PATTERN private/* EXCLUDE
 )
 
