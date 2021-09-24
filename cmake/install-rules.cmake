@@ -15,7 +15,6 @@ install(
     DESTINATION "${CMAKE_INSTALL_INCLUDEDIR}"
     COMPONENT multi-target_Development
     PATTERN private EXCLUDE
-    PATTERN private/* EXCLUDE
 )
 
 install(
